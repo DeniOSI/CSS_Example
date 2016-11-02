@@ -1,0 +1,29 @@
+div ul{text-decoration: overline underline blink line-through;
+		}
+.big{font-size: 30pt;}
+span p{text-transform: uppercase; /* lowercase, capitalize */
+text-align: justify; /*left,  center, justify */
+text-indent: 10%; /*15px; */
+text-shadow: yellow 1px 3px 5px;
+letter-spacing: 6px;
+word-spacing: 5px;
+}
+
+
+BODY{
+	background-image: url(../img/back_fon.jpg);
+	background-color: #777;
+	background-repeat: no-repeat;/* repeat-x, repeat-y, repeat; */
+	background-position: center;/* top, bottom, left, right;*/
+	background-attachment: scroll; /*fixed*/
+}
+
+.block{width: 600px;
+ padding: 10px;
+  height: 500px; 
+margin: 5px 10px 15px 55px; 
+padding: 10px 5px 5px 5px; 
+border-width: 3px 3px 3px 3px; 
+border-color: red yellow green blue;
+ border-style: dotted dashed double ridge; 
+/*outset, inset, grove, solid, none*/}
